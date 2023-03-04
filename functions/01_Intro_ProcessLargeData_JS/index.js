@@ -29,7 +29,7 @@ export default async function (event, context, logger) {
 
   // validate the payload params
   if (!data.latitude || !data.longitude) {
-    throw new Error(`Please provide latitude and longitude`);
+    throw new Error(`Please provide latitude and longitude. Thanks`);
   }
 
   // Sets 5 if length is not provided, also accepts length = 0
